@@ -7,7 +7,7 @@
 <body>
 	<?php include('./includes/header.php');	?>
 	<div id="content"><!-- Start of the page-specific content. -->
-		<h1>News Feed Placeholder</h1>
+		<?php include('./includes/news-feed.php');	?>
 	</div>	
 	<?php include('./includes/footer.php'); ?>
 </body>

@@ -1,0 +1,29 @@
+#newsfeed {
+	background-color: #ededed;
+	border: 1px solid #333333;
+	width: 40%;
+}
+
+#newsfeed h1 {
+	background-color: #555555;
+	color: #cecece;
+	font-size: 2em;
+	padding: 10px 15px 15px 10px;
+}
+
+.news-card {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #8e8e8e;
+	margin: 15px;
+	padding: 15px;
+}
+
+.news-card h2 {
+	margin-bottom: 15px;
+}
+
+.news-card img {
+	border-radius: 7px;
+	width: 100%;
+}

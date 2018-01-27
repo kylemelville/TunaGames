@@ -4,7 +4,6 @@
 		<ul>
 			<li><a href="games.php">Games</a></li>
 			<li><a href="team.php">Team</a></li>
-			<li><a href="about.php">About</a></li>
 			<li><a href="store.php">Store</a></li>
 			<li><a href="store.php">Contact</a></li>
 			<li><a href="store.php">Terms of Use</a></li>
