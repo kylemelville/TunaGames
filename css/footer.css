@@ -1,0 +1,15 @@
+footer {
+	background-color: #555555;
+	border-top: 1px solid #999999; 
+	clear: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .navigation {
+	background-color: inherit;
+}
+
+footer .navigation a{
+	color: #cecece;
+}

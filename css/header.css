@@ -1,0 +1,50 @@
+header {
+	background-image: linear-gradient(to right, rgba(51, 51, 51, 0.95), rgba(51, 51, 51, 0.85)), 
+		url("images/bubblepattern-whitetest2.png");
+	background-repeat: repeat;
+	background-color: #333333;
+	border-bottom: 1px solid #999999;
+	margin: 0 auto; 
+}
+
+header h1 {
+	color: #adadad;
+	font-size: 3em;
+	letter-spacing: -3px;
+	padding: 5px;
+	margin-left: 25px;
+	margin-top: -30px;
+}
+
+header img {
+	padding: 15px;
+}
+
+.navigation {
+	background-color: #333333;
+	border-right: 1px solid #999999;
+	height: 40px;
+}
+
+.navigation li {
+	border-right: 1px solid #999999;
+	float: left;
+	width: 149px;
+	list-style: none;
+}
+
+.navigation a {
+	color: #cecece;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+}
+
+.navigation a:hover {
+	background: #adadad;
+	color: #333333;
+}
+
+.navigation a:active {
+	background: #e3e3e3;
+}

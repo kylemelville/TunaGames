@@ -1,7 +1,9 @@
 #newsfeed {
 	background-color: #ededed;
 	border: 1px solid #333333;
-	width: 40%;
+	overflow-x: hidden;
+	width: 250px;
+	float: left;
 }
 
 #newsfeed h1 {
@@ -16,14 +18,20 @@
 	border-radius: 10px;
 	box-shadow: 3px 3px 5px #8e8e8e;
 	margin: 15px;
+	max-height: 200px;
+	overflow: hidden;
 	padding: 15px;
 }
 
 .news-card h2 {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .news-card img {
 	border-radius: 7px;
 	width: 100%;
+}
+
+.news-card p {
+	
 }

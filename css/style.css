@@ -7,86 +7,18 @@
 body {
 	background: #ffffff;
 	color: #555555;
-	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+	font:0.8em sans-serif;
 }
 
-#header {
-	background-image: linear-gradient(to right, rgba(51, 51, 51, 0.95), rgba(51, 51, 51, 0.85)), 
-		url("images/bubblepattern-whitetest2.png");
-	background-repeat: repeat;
-	background-color: #333333;
-	border-bottom: 1px solid #999999;
-	margin: 0 auto; 
-}
-
-#header h1 {
-	color: #adadad;
-	font-size: 3em;
-	letter-spacing: -3px;
-	padding: 5px;
-	margin-left: 25px;
-	margin-top: -30px;
-}
-
-#header img {
-	padding: 15px;
-}
-
-.navigation {
-	background: #333333;
-	border-right: 1px solid #999999;
-	height: 40px;
-	right: 0;
-}
-
-.navigation li {
-	border-left: 1px solid #999999;
-	float: left;
-	width: 149px;
-	list-style:none;
-}
-
-.navigation a {
-	color: #cecece;
-	display: block;
-	line-height: 40px;
-	text-align: center;
-}
-
-.navigation a:hover {
-	background: #adadad;
-	color: #333333;
-}
-
-.navigation a:active {
-	background: #e3e3e3;
-}
-
-/* content */
 #content {
-	height: auto;
-	margin: 0 auto;
-	padding: 0 0 20px;
-	width: 751px;
+	font-size: 1.5em;
+	height: 100%;
+	margin-left: 250px;
+	padding: 15px;	
 }
+
 #content p {
 	padding: 20px 20px 0;
-}
-
-/* footer */
-#footer {
-	background-color: #555555;
-	border-top: 1px solid #999999; 
-	margin: 0 auto;
-	text-align: center;
-}
-
-#footer .navigation {
-	background-color: inherit;
-}
-
-#footer .navigation a{
-	color: #cecece;
 }
 
 /* Added by Larry Ullman: */
