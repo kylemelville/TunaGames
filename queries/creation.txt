@@ -1,0 +1,29 @@
+CREATE DATABASE tunagames;
+
+CREATE TABLE users (
+	id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(32) NOT NULL,
+    last_name VARCHAR(32) NOT NULL,
+    email VARCHAR(64) NOT NULL,
+    pwd VARCHAR(64) NOT NULL,
+    creation_date DATETIME NOT NULL,
+    admin BOOLEAN,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE employees (
+	id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(32) NOT NULL,
+    last_name VARCHAR(32) NOT NULL,
+    description MEDIUMTEXT,
+    start_date DATETIME NOT NULL,
+    end_date DATETIME,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE games (
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    game_name VARCHAR(32) NOT NULL,
+    description MEDIUMTEXT,
+    PRIMARY KEY (id)
+);
