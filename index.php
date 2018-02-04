@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Tuna Games</title>	
-		<link rel="stylesheet" href="./css/style.css" type="text/css" />
-	</head>
-<body>
-	<?php include('./includes/header.php');	?>	
-	<?php include('./includes/news-feed.php'); ?>
+	<?php
+		include('./includes/header.php');	
+		include('./includes/news-feed.php'); 
+	?>
 	<div id="content">
 		<p>		
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis odio. Mauris sodales placerat justo ut tincidunt. Fusce ullamcorper porttitor malesuada. Nam eget mauris id velit interdum rhoncus. Sed sed arcu hendrerit mauris tincidunt consectetur. Sed lacinia dapibus efficitur. Morbi eget tristique nunc, vitae pretium orci. Phasellus mattis felis in mi tristique blandit. Mauris sit amet eros vitae arcu pulvinar euismod. Nullam vulputate ante a sapien ultrices, at accumsan nisl luctus. Fusce eu nunc iaculis, bibendum nulla eu, bibendum nibh.
@@ -16,5 +11,3 @@
 		</p>
 	</div>	
 	<?php include('./includes/footer.php'); ?>
-</body>
-</html>

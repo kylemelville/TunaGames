@@ -1,6 +1,6 @@
 header {
 	background-image: linear-gradient(to right, rgba(51, 51, 51, 0.95), rgba(51, 51, 51, 0.85)), 
-		url("images/bubblepattern-whitetest2.png");
+		url("../images/ui/bubblepattern-whitetest2.png");
 	background-repeat: repeat;
 	background-color: #333333;
 	border-bottom: 1px solid #999999;

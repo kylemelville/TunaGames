@@ -1,0 +1,6 @@
+USE tunagames;
+
+INSERT INTO employees (first_name, last_name, description, start_date)
+VALUES ('Kyle', 'Melville', '', CURRENT_TIMESTAMP), 
+	('Melvin', 'Patton', '', CURRENT_TIMESTAMP),
+    ('Michael', 'Wright', '', CURRENT_TIMESTAMP);
