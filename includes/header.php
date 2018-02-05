@@ -15,15 +15,13 @@
 	<body>
 		<header>
 			<a href="./index.php">
-				<img src="./images/ui/tunagameslogo-white.png" alt="Tuna Games" />
-				<h1>Tuna Games</h1>	
+				<img src="./images/ui/tunagameslogo.png" alt="Tuna Games" />	
 			</a>	
 			<div class="navigation">
 				<ul>
 					<li><a href="games.php">Games</a></li>
 					<li><a href="team.php">Team</a></li>
 					<li><a href="shop.php">Shop</a></li>
-					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 		</header>

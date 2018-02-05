@@ -5,20 +5,36 @@
 }
 
 body {
-	background: #ffffff;
+	background-color: #f5f5f5;
 	color: #555555;
 	font:0.8em sans-serif;
 }
 
-#content {
-	font-size: 1.5em;
-	height: 100%;
-	margin-left: 250px;
-	padding: 15px;	
+input, select {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: #008040;
+	background: #FFFFFF;
+	border: 1px dotted #004080;
 }
 
-#content p {
-	padding: 20px 20px 0;
+.empty-list {
+	background-color: #7f7f7f;
+	color: #f5f5f5;
+	font-size: 3em;
+	margin: 10px;
+	padding: 25px;
+}
+
+.empty-list img {
+	height: 1em;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+.empty-list span {	
+	vertical-align: middle;
 }
 
 /* Added by Larry Ullman: */
@@ -27,11 +43,12 @@ body {
 	color: #CC0000;
 }
 
-input, select, .input {
-	padding: 5px;
-	font-weight: bold;
-	font-size: 1em;
-	color: #008040;
-	background: #FFFFFF;
-	border: 1px dotted #004080;
+#content {
+	font-size: 1.5em;
+	margin-left: 250px;
+	padding: 15px;	
+}
+
+#content p {
+	padding: 20px 20px 0;
 }

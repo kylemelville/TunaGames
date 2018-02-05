@@ -2,7 +2,7 @@
 	$pageSubTitle = 'Games';
 	include('./includes/header.php');
 	require("../mysqli_connect.php");
-	$query = "SELECT first_name, last_name, description
+	$query = "SELECT game_name, description
 		FROM games;";
 	$result = @mysqli_query($dbc, $query);
 	if($result && $result->num_rows > 0) {
@@ -11,9 +11,9 @@
 			$gameList = $gameList.'<li class="game">
 					<img class="game-background" src="" />
 					<img class="game-logo" src="" />
-					<span class="game-name">TUNADVENTURE</span>
+					<span class="game-name">'.$row['game_name'].'</span>
 					<p>
-						Description
+						'.$row['description'].'
 					</p>
 				</li>';
 		}
@@ -21,8 +21,8 @@
 		echo $gameList;
 	} else {
 		echo '<div class="empty-list">
-				NOTHING HERE!
-				<img src="./images/ui/sweaty-tuna.png" />
+				<span>Nothing here!</span>
+				<img src="./images/ui/sweatytuna.png" />
 			</div>';
 	}
 	include('./includes/footer.php');

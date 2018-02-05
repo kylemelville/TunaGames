@@ -1,6 +1,23 @@
 USE tunagames;
 
 INSERT INTO employees (first_name, last_name, description, start_date)
-VALUES ('Kyle', 'Melville', '', CURRENT_TIMESTAMP), 
-	('Melvin', 'Patton', '', CURRENT_TIMESTAMP),
-    ('Michael', 'Wright', '', CURRENT_TIMESTAMP);
+VALUES ('Kyle', 
+		'Melville', 
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at porta libero. In hac habitasse platea dictumst. Morbi sed diam diam. Etiam a laoreet ligula. Phasellus semper quam mi, non feugiat libero interdum ut. Morbi interdum porta felis id tempus. Duis ligula velit, varius a nisi vel, convallis egestas leo.', 
+		CURRENT_TIMESTAMP), 
+	('Melvin',
+		'Patton', 
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis nibh in ante iaculis, ut facilisis sem vestibulum. Cras commodo porttitor risus ac condimentum. Fusce pellentesque viverra ex, non laoreet metus lacinia eu. Curabitur pellentesque odio eros, posuere ullamcorper risus semper eu. Etiam suscipit ex et venenatis fringilla. In aliquam sem diam, eget rhoncus dolor facilisis eget. Vestibulum iaculis commodo ante. Morbi non eros interdum, sodales leo sed, venenatis leo. In sagittis dignissim ullamcorper.', 
+		CURRENT_TIMESTAMP),
+    ('Michael', 
+    	'Wright',
+    	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada accumsan ante sit amet aliquet. Suspendisse a ipsum viverra turpis porta gravida in a augue. Donec augue purus, sagittis id neque in, volutpat laoreet purus. Ut tempus viverra orci vitae sollicitudin. Nam bibendum sapien ut ex egestas, at varius est venenatis. Sed lacinia sed nibh iaculis tempus. Sed ornare sollicitudin mollis. Nunc at mi dolor. Integer imperdiet condimentum tristique. Vivamus euismod malesuada tortor, ac pharetra nunc vulputate vitae. Aliquam erat volutpat.', 
+    	CURRENT_TIMESTAMP);
+
+INSERT INTO games (game_name, description)
+VALUES ('TUNAdventure', 
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium varius tempor. Nulla eleifend ullamcorper lorem, non fringilla purus finibus a. Integer quis imperdiet nisl, ut finibus ligula. Mauris feugiat mollis ipsum at finibus. In ultrices nisi eget nulla elementum commodo. Aenean ultrices sem in sapien fermentum viverra. Duis venenatis dapibus felis, nec iaculis ligula mollis non. Aenean pellentesque diam lorem, porta maximus nisi lacinia sed. Praesent mattis blandit est, nec accumsan erat gravida vel.'),
+	('RockCopter', 
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum fermentum pharetra. Pellentesque vitae lectus porttitor, commodo dolor nec, posuere nunc. Vivamus efficitur dignissim felis, sed cursus turpis lacinia at. Nulla vitae augue odio. Nulla vitae lacinia ligula. Proin ultrices nibh eget venenatis tristique. Suspendisse massa augue, viverra a leo at, ullamcorper molestie diam. Nunc suscipit massa sit amet leo gravida dignissim. Nam non sollicitudin diam.'),
+   	('Crestfall: Soul Harvest', 
+   		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus bibendum est a ornare. Maecenas id sem id augue ornare euismod vel eu massa. Vivamus quis lorem pulvinar, ullamcorper urna sed, ullamcorper ante. Maecenas ac sem efficitur, faucibus diam ut, elementum nunc. Aliquam erat volutpat. Proin sed erat condimentum, sollicitudin enim et, condimentum arcu. Nullam imperdiet id ligula vulputate porta. Curabitur sollicitudin varius felis, nec dignissim turpis efficitur id. Suspendisse ac arcu dui. Etiam id nunc rutrum libero mollis condimentum. Praesent euismod convallis dolor, at sollicitudin neque eleifend ut. Pellentesque enim ex, cursus a dui at, ultrices euismod dui. Fusce gravida vehicula lacus. Sed dignissim nibh ut purus vehicula tincidunt. Proin et posuere leo, sit amet convallis erat.');

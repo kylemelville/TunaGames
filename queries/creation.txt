@@ -18,6 +18,7 @@ CREATE TABLE employees (
     description MEDIUMTEXT,
     start_date DATETIME NOT NULL,
     end_date DATETIME,
+    profile_picture VARCHAR(255),
     PRIMARY KEY (id)
 );
 

@@ -1,0 +1,26 @@
+.employee {
+	margin: 10px;
+	display: inline-block;
+}
+
+.employee img {
+	border: 3px solid orange;
+	float: left;
+	height: 125px;
+	image-rendering: pixelated;
+	width: 125px;
+}
+
+.employee .employee-details {
+	margin-left: 150px;
+}
+
+.employee .name {
+	font-size: 1.85em;
+	font-weight: 600;	
+}
+
+.employee p {
+	font-size: 1.4em;
+	margin-top: 10px;
+}
