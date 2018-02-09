@@ -1,9 +1,7 @@
 footer {
 	clear: left;
-	margin: 0 auto;
-	padding-top: 40px;
-	position: relative;
-	text-align: center;
+	padding-top: 30px;
+	/*text-align: center;*/
 	width: 100%;
 }
 
@@ -15,16 +13,20 @@ footer hr {
 }
 
 footer .logo {
-	display: block;
-	margin-top: 40px;
-	position: relative;
+	display: inline-block;
+	margin-left: 46%;
+	margin-top: 25px;
+}
+
+footer .logo img {
+	max-width: 128px;
 }
 
 footer .navigation {
-	float: right;
+	display: inline-block;
+
 	margin: 0;
-	padding: 25px;
-	width: 100%;
+	padding: 25px;	
 }
 
 footer .navigation a {
