@@ -10,17 +10,21 @@
 	background-color: #555555;
 	color: #cecece;
 	font-size: 2em;
-	padding: 10px 15px 15px 10px;
+	padding: 5px 5px 5px 5px;
 }
 
-.news-card {
-	background-color: #ffffff;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px #8e8e8e;
+.news-card {	
 	margin: 15px;
 	max-height: 200px;
 	overflow: hidden;
-	padding: 15px;
+	padding: 5px;
+	transition: 0.15s ease-in-out;
+}
+
+.news-card:hover {
+	background-color: #ffffff;
+	box-shadow: 3px 3px 5px #8e8e8e;
+	transition: 0.15s ease-in-out;
 }
 
 .news-card h2 {
@@ -28,7 +32,6 @@
 }
 
 .news-card img {
-	border-radius: 7px;
 	width: 100%;
 }
 

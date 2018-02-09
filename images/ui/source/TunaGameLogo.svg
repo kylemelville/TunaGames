@@ -29,7 +29,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.087500002"
-     inkscape:cx="-6694.0643"
+     inkscape:cx="-8516.9214"
      inkscape:cy="-431.52879"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -37,8 +37,8 @@
      showborder="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-y="-5"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -110,6 +110,29 @@
        inkscape:export-filename="C:\Users\Kyle\Desktop\text8165.png"
        inkscape:export-xdpi="6.7663555"
        inkscape:export-ydpi="6.7663555" />
+    <path
+       id="path8016-43"
+       style="display:inline;opacity:1;fill:#282828;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:60;stroke-opacity:1"
+       d="m -7433.4104,669.52259 c -25.4137,-27.32517 -25.4137,-701.346165 0,-728.671365 25.4138,-27.3251 338.8495,309.685365 338.8495,364.335715 0,54.65034 -313.4357,391.66083 -338.8495,364.33565 z m 988.2303,-738.306065 c -153.1957,0 -306.3928,3.9333 -327.6759,11.7969 -42.5661,15.7272 -327.6738,331.748665 -327.6738,363.203115 0,31.45443 285.1077,347.47786 327.6738,363.20507 42.5662,15.72723 612.7836,15.72723 655.3497,0 42.5662,-15.72721 327.6739,-331.75064 327.6739,-363.20507 0,-31.45445 -285.1077,-347.475915 -327.6739,-363.203115 -21.283,-7.8636 -174.4782,-11.7969 -327.6738,-11.7969 z m 263.3613,116.1016 29.8243,0 c 10.8148,0 19.5195,8.7067 19.5195,19.5215 l 0,81.406205 81.4062,0 c 10.8148,0 19.5215,8.7048 19.5215,19.5196 l 0,29.82608 c 0,10.81479 -8.7067,19.52349 -19.5215,19.52349 l -81.4062,0 0,81.40232 c 0,10.81479 -8.7047,19.52147 -19.5195,19.52147 l -29.8243,0 c -10.8147,0 -19.5214,-8.70668 -19.5214,-19.52147 l 0,-81.40232 -81.4063,0 c -10.8148,0 -19.5215,-8.7087 -19.5215,-19.52349 l 0,-29.82608 c 0,-10.8148 8.7067,-19.5196 19.5215,-19.5196 l 81.4063,0 0,-81.406205 c 0,-10.8148 8.7067,-19.5215 19.5214,-19.5215 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8165.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-7144.3213"
+       y="939.22223"
+       id="text8165-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8165.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555"><tspan
+         sodipodi:role="line"
+         id="tspan8167-7"
+         x="-7144.3213"
+         y="939.22223"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:360px;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill:#9b9b9b;fill-opacity:1">Tuna Games</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

@@ -26,5 +26,8 @@ CREATE TABLE games (
     id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
     game_name VARCHAR(32) NOT NULL,
     description MEDIUMTEXT,
+    release_date DATE,
+    logo VARCHAR(255),
+    banner VARCHAR(255),
     PRIMARY KEY (id)
 );
