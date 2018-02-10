@@ -26,8 +26,23 @@ CREATE TABLE games (
     id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
     game_name VARCHAR(32) NOT NULL,
     description MEDIUMTEXT,
-    release_date DATE,
     logo VARCHAR(255),
     banner VARCHAR(255),
     PRIMARY KEY (id)
+);
+
+CREATE TABLE platforms (
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    platform_name VARCHAR(32) NOT NULL,
+    icon VARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE game_platform (
+    game_id MEDIUMINT UNSIGNED NOT NULL,
+    platform_id MEDIUMINT UNSIGNED NOT NULL,
+    release_date DATE,
+    page_url VARCHAR(255),
+    FOREIGN KEY (game_id) REFERENCES games(id),
+    FOREIGN KEY (platform_id) REFERENCES platform(id)
 );

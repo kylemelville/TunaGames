@@ -3,8 +3,7 @@
 	include('./includes/header.php');
 	require("../mysqli_connect.php");
 	$query = "SELECT id, game_name, description, logo, banner
-		FROM games
-		ORDER BY release_date DESC;";
+		FROM games;";
 	$result = @mysqli_query($dbc, $query);
 	if($result && $result->num_rows > 0) {
 		$gameList = '<ul id="games">';
