@@ -1,0 +1,99 @@
+.embedded-game {
+	background-image: url("../images/ui/softhexagonpattern.png"), 
+		linear-gradient(rgba(245, 245, 245, 1), rgba(250, 250, 250, 1));
+	border-bottom: 5px solid #ffffff;
+	border-top: 2px solid #ffffff
+}
+
+.webgl-content * {
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+
+.webgl-content {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	position: relative;
+	width: 960px;
+}
+
+.webgl-content .logo, .progress {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.webgl-content .logo {
+	background: url('../images/ui/unity/progressLogo.Light.png') no-repeat center / contain;
+	width: 154px;
+	height: 130px;
+}
+
+.webgl-content .progress {
+	height: 18px;
+	width: 141px;
+	margin-top: 90px;
+}
+
+.webgl-content .progress .empty {
+	background: url('../images/ui/unity/progressEmpty.Light.png') no-repeat right / cover;
+	float: right;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.webgl-content .progress .full {
+	background: url('../images/ui/unity/progressFull.Light.png') no-repeat left / cover;
+	float: left;
+	width: 0%;
+	height: 100%;
+	display: inline-block;
+}
+
+.webgl-content .logo.Dark {
+	background-image: url('../images/ui/unity/progressLogo.Dark.png');
+}
+
+.webgl-content .progress.Dark .empty {
+	background-image: url('../images/ui/unity/progressEmpty.Dark.png');
+}
+
+.webgl-content .progress.Dark .full {
+	background-image: url('../images/ui/unity/progressFull.Dark.png');
+}
+
+.webgl-content .footer {
+	margin-top: 5px;
+	height: 38px;
+	line-height: 38px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.webgl-content .footer .webgl-logo, .title, .fullscreen {
+	height: 100%;
+	display: inline-block;
+	background: transparent center no-repeat;
+} 
+
+.webgl-content .footer .webgl-logo {
+	background-image: url('../images/ui/unity/webgl-logo.png');
+	width: 204px;
+	float: left;
+}
+
+.webgl-content .footer .title {
+	margin-right: 10px;
+	float: right;
+}
+
+.webgl-content .footer .fullscreen {
+	background-image: url('../images/ui/unity/fullscreen.png');
+	width: 38px;
+	float: right;
+}
