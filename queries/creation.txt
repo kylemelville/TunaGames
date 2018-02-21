@@ -46,3 +46,16 @@ CREATE TABLE game_platform (
     FOREIGN KEY (game_id) REFERENCES games(id),
     FOREIGN KEY (platform_id) REFERENCES platform(id)
 );
+
+CREATE TABLE screenshots(
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    image VARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE game_screenshot (
+    game_id MEDIUMINT UNSIGNED NOT NULL,
+    screenshot_id MEDIUMINT UNSIGNED NOT NULL,
+    FOREIGN KEY (game_id) REFERENCES games(id),
+    FOREIGN KEY (screenshot_id) REFERENCES screenshots(id)
+);

@@ -13,7 +13,8 @@
 			} else {
 				$gameList = $gameList.'<li class="game" style="background-image: url(./images/games/'.$gameRow['banner'].');">';	
 			}
-			$gameList = $gameList.'<div class="wrapper">
+			$gameList = $gameList.'<a href="./game.php?id='.$gameRow['id'].'">"
+				<div class="wrapper">
 				<div class="game-logo">';
 			if(empty($gameRow['logo'])) {
 				$gameList = $gameList.$gameRow['game_name'];
@@ -47,8 +48,9 @@
 				}
 			}
 			$gameList = $gameList.'</ul>
+							</div>
 						</div>
-					</div>
+					</a>
 				</li>';
 		}
 		$gameList = $gameList.'</ul>';
@@ -61,4 +63,5 @@
 	}
 	include('./includes/footer.php');
 ?>
+<link rel="stylesheet" href="./css/game.css" type="text/css" />
 <link rel="stylesheet" href="./css/games.css" type="text/css" />

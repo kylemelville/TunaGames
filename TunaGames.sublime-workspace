@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"max",
 				"max-height"
 			],
@@ -26,14 +42,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"padding",
-				"padding-top"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"margi",
@@ -62,10 +70,6 @@
 			[
 				"animati",
 				"animation-duration"
-			],
-			[
-				"padd",
-				"padding-right"
 			],
 			[
 				"v",
@@ -492,40 +496,65 @@
 	"buffers":
 	[
 		{
-			"file": "games.php",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 2299,
+				"buffer_size": 1618,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "game.php",
+			"settings":
+			{
+				"buffer_size": 2697,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "queries/creation.txt",
 			"settings":
 			{
-				"buffer_size": 1393,
+				"buffer_size": 1601,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 756,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "USE tunagames;\n\nINSERT INTO employees (first_name, last_name, description, start_date)\nVALUES ('Kyle', \n\t\t'Melville', \n\t\t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at porta libero. In hac habitasse platea dictumst. Morbi sed diam diam. Etiam a laoreet ligula. Phasellus semper quam mi, non feugiat libero interdum ut. Morbi interdum porta felis id tempus. Duis ligula velit, varius a nisi vel, convallis egestas leo.', \n\t\tCURRENT_TIMESTAMP), \n\t('Melvin',\n\t\t'Patton', \n\t\t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis nibh in ante iaculis, ut facilisis sem vestibulum. Cras commodo porttitor risus ac condimentum. Fusce pellentesque viverra ex, non laoreet metus lacinia eu. Curabitur pellentesque odio eros, posuere ullamcorper risus semper eu. Etiam suscipit ex et venenatis fringilla. In aliquam sem diam, eget rhoncus dolor facilisis eget. Vestibulum iaculis commodo ante. Morbi non eros interdum, sodales leo sed, venenatis leo. In sagittis dignissim ullamcorper.', \n\t\tCURRENT_TIMESTAMP),\n    ('Michael', \n    \t'Wright',\n    \t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada accumsan ante sit amet aliquet. Suspendisse a ipsum viverra turpis porta gravida in a augue. Donec augue purus, sagittis id neque in, volutpat laoreet purus. Ut tempus viverra orci vitae sollicitudin. Nam bibendum sapien ut ex egestas, at varius est venenatis. Sed lacinia sed nibh iaculis tempus. Sed ornare sollicitudin mollis. Nunc at mi dolor. Integer imperdiet condimentum tristique. Vivamus euismod malesuada tortor, ac pharetra nunc vulputate vitae. Aliquam erat volutpat.', \n    \tCURRENT_TIMESTAMP);\n\nINSERT INTO games (game_name, description)\nVALUES ('TUNAdventure', \n\t\t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium varius tempor. Nulla eleifend ullamcorper lorem, non fringilla purus finibus a. Integer quis imperdiet nisl, ut finibus ligula. Mauris feugiat mollis ipsum at finibus. In ultrices nisi eget nulla elementum commodo. Aenean ultrices sem in sapien fermentum viverra. Duis venenatis dapibus felis, nec iaculis ligula mollis non. Aenean pellentesque diam lorem, porta maximus nisi lacinia sed. Praesent mattis blandit est, nec accumsan erat gravida vel.'),\n\t('RockCopter', \n\t\t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum fermentum pharetra. Pellentesque vitae lectus porttitor, commodo dolor nec, posuere nunc. Vivamus efficitur dignissim felis, sed cursus turpis lacinia at. Nulla vitae augue odio. Nulla vitae lacinia ligula. Proin ultrices nibh eget venenatis tristique. Suspendisse massa augue, viverra a leo at, ullamcorper molestie diam. Nunc suscipit massa sit amet leo gravida dignissim. Nam non sollicitudin diam.',\n\t\t'rockcopterlogo.png',\n\t\t'rockcopterbanner.png'),\n   \t('Crestfall: Soul Harvest', \n   \t\t'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus bibendum est a ornare. Maecenas id sem id augue ornare euismod vel eu massa. Vivamus quis lorem pulvinar, ullamcorper urna sed, ullamcorper ante. Maecenas ac sem efficitur, faucibus diam ut, elementum nunc. Aliquam erat volutpat. Proin sed erat condimentum, sollicitudin enim et, condimentum arcu. Nullam imperdiet id ligula vulputate porta. Curabitur sollicitudin varius felis, nec dignissim turpis efficitur id. Suspendisse ac arcu dui. Etiam id nunc rutrum libero mollis condimentum. Praesent euismod convallis dolor, at sollicitudin neque eleifend ut. Pellentesque enim ex, cursus a dui at, ultrices euismod dui. Fusce gravida vehicula lacus. Sed dignissim nibh ut purus vehicula tincidunt. Proin et posuere leo, sit amet convallis erat.',\n   \t\t'crestfalllogo.png',\n   \t\t'crestfallbanner.png');\n\nINSERT INTO platforms (platform_name, icon)\nVALUES ('Online', 'onlinelogo.png'),\n\t('Steam', 'steamlogo.png'),\n\t('PlayStation', 'playstationlogo.png'),\n\t('XBox', 'xboxlogo.png'),\n\t('Nintendo', 'nintendologo.png'),\n\t('Google Play', 'googleplaylogo.png'),\n\t('Apple', 'applelogo.png');\n\nINSERT INTO game_platform (game_id, platform_id, release_date, page_url)\nVALUES (1, 1, '2018-02-01', NULL),\n\t(2, 1, '2017-06-01', NULL),\n\t(2, 2, '2018-01-01', 'http://store.steampowered.com/app/'),\n\t(3, 2, '2017-11-01', 'http://store.steampowered.com/app/'),\n\t(3, 3, '2018-01-01', 'https://store.playstation.com/en-us/product/'),\n\t(3, 5, '2018-01-01', 'https://www.nintendo.com/games/detail/');\n\n\tSELECT g.id, game_name, description, logo, banner, page_url, icon, platform_name\nFROM games g\nLEFT JOIN game_platform gp\n\tON gp.game_id = g.id\nLEFT JOIN platforms p \n\tON p.id = gp.platform_id\nGROUP BY g.id, p.id\nORDER BY release_date",
 			"file": "queries/data-insertion.txt",
-			"file_size": 4428,
-			"file_write_time": 131627096261957610,
 			"settings":
 			{
-				"buffer_size": 4621,
+				"buffer_size": 4674,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/header.css",
+			"settings":
+			{
+				"buffer_size": 934,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/game.css",
+			"settings":
+			{
+				"buffer_size": 2319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "games.php",
+			"settings":
+			{
+				"buffer_size": 2425,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -563,25 +592,35 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/TunaGames",
-		"/C/xampp/htdocs/TunaGames/includes",
 		"/C/xampp/htdocs/TunaGames/queries"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/TunaGames/includes/header.php",
+		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/TemplateData/style.css",
+		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/index.php",
+		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/Build/UnityLoader.js",
+		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/index.html",
+		"/C/xampp/htdocs/TunaGames/css/games.css",
+		"/C/xampp/htdocs/TunaGames/css/style.css",
+		"/C/xampp/htdocs/TunaGames/css/game2.css",
+		"/C/xampp/htdocs/TunaGames/games.php",
+		"/C/Users/Kyle/.emulationstation/es_input.cfg",
+		"/C/Users/Kyle/IdeaProjects/teamcredentialsstore/src/main/resources/application.properties",
+		"/C/Windows/kitchensink.keystore",
+		"/C/xampp/tomcat/conf/tomcat-users.xml",
+		"/C/xampp/tomcat/conf/server.xml",
+		"/C/xampp/htdocs/TunaGames/queries/data-insertion.txt",
 		"/C/xampp/htdocs/TunaGames/index.html",
 		"/C/xampp/htdocs/TunaGames/games/WebTest/index.html",
 		"/C/Users/Kyle/.emulationstation/es_systems.cfg",
 		"/C/Users/Kyle/.emulationstation/es_settings.cfg",
 		"/C/Users/Kyle/.emulationstation/gamelists/nes/gamelist.xml",
 		"/C/xampp/htdocs/TunaGames/queries/creation.txt",
-		"/C/xampp/htdocs/TunaGames/queries/data-insertion.txt",
-		"/C/xampp/htdocs/TunaGames/includes/header.php",
 		"/C/xampp/htdocs/TunaGames/css/footer.css",
 		"/C/xampp/htdocs/TunaGames/includes/footer.php",
-		"/C/xampp/htdocs/TunaGames/games.php",
 		"/C/xampp/htdocs/TunaGames/css/header.css",
 		"/C/xampp/htdocs/TunaGames/css/news-feed.css",
-		"/C/xampp/htdocs/TunaGames/css/games.css",
 		"/C/xampp/htdocs/TunaGames/team.php",
 		"/C/xampp/htdocs/TunaGames/css/references.txt",
 		"/C/xampp/htdocs/TunaGames/css/team.css",
@@ -599,7 +638,6 @@
 		"/C/xampp/htdocs/mysqli_connect.php",
 		"/C/Users/Kyle/Desktop/phpmysql4_scripts/phpmysql4_scripts/ch09/mysqli_connect.php",
 		"/C/Users/Kyle/Desktop/phpmysql4_scripts/phpmysql4_scripts/ch09/password.php",
-		"/C/xampp/htdocs/TunaGames/css/style.css",
 		"/C/xampp/htdocs/TunaGames/includes/news-feed.php",
 		"/C/Users/Kyle/Desktop/mario.png",
 		"/C/xampp/mysql/bin/my.ini",
@@ -685,17 +723,7 @@
 		"/C/Users/Kyle/Desktop/MTQ1.txt",
 		"/C/Users/Kyle/Desktop/db_assignments_hard.txt",
 		"/C/Users/Kyle/Desktop/SQLPracticeProblems.txt",
-		"/C/Users/Kyle/Desktop/CreateTableExercise.txt",
-		"/C/Users/Kyle/Desktop/SQLPracticeProblems",
-		"/C/Users/Kyle/Desktop/Chapter 3 Assigment 2",
-		"/C/xampp/htdocs/mysql.php",
-		"/C/xampp/phpMyAdmin/config.inc.php",
-		"/C/xampp/php/php.ini",
-		"/C/xampp/mysql/data/mysql_error.log",
-		"/C/Users/Kyle/Desktop/Chapter3.txt",
-		"/C/Users/Kyle/AppData/Local/DOSBox/dosbox-0.74.conf",
-		"/C/Users/Kyle/Desktop/Chapter3",
-		"/C/Users/Kyle/Desktop/Color/Javac Note.txt"
+		"/C/Users/Kyle/Desktop/CreateTableExercise.txt"
 	],
 	"find":
 	{
@@ -713,6 +741,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\n",
 			"both",
 			"left",
 			"9",
@@ -740,48 +769,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "games.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1646,
-								1646
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1393,
+						"buffer_size": 1618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								69
+								254,
+								254
 							]
 						],
 						"settings":
@@ -793,30 +793,116 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 280.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "queries/creation.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1601,
+								1601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "queries/data-insertion.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4674,
+								4674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "css/style.css",
+					"buffer": 4,
+					"file": "css/header.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 756,
+						"buffer_size": 934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								259,
+								10
 							]
 						],
 						"settings":
@@ -828,35 +914,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "queries/data-insertion.txt",
+					"buffer": 5,
+					"file": "css/game.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4621,
+						"buffer_size": 2319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4621,
-								4621
+								1702,
+								1702
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 938.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "games.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1519,
+								1519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -890,7 +1006,7 @@
 		"cols":
 		[
 			0.0,
-			0.58585738302,
+			0.59850798543,
 			1.0
 		],
 		"rows":

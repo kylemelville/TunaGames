@@ -1,6 +1,10 @@
 	<?php include('./includes/header.php');	?>
 	<div class="wrapper">
-		<?php include('./includes/news-feed.php'); ?>
+		<!-- <?php include('./includes/news-feed.php'); ?> -->
+		<a class="twitter-timeline" href="https://twitter.com/TunaGamesUltra?ref_src=twsrc%5Etfw">
+			Tweets by TunaGamesUltra
+		</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<div id="content">
 			<p>		
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis odio. Mauris sodales placerat justo ut tincidunt. Fusce ullamcorper porttitor malesuada. Nam eget mauris id velit interdum rhoncus. Sed sed arcu hendrerit mauris tincidunt consectetur. Sed lacinia dapibus efficitur. Morbi eget tristique nunc, vitae pretium orci. Phasellus mattis felis in mi tristique blandit. Mauris sit amet eros vitae arcu pulvinar euismod. Nullam vulputate ante a sapien ultrices, at accumsan nisl luctus. Fusce eu nunc iaculis, bibendum nulla eu, bibendum nibh.
