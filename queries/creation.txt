@@ -59,3 +59,17 @@ CREATE TABLE game_screenshot (
     FOREIGN KEY (game_id) REFERENCES games(id),
     FOREIGN KEY (screenshot_id) REFERENCES screenshots(id)
 );
+
+CREATE TABLE online_builds (
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    build_folder VARCHAR(255) NOT NULL,
+    upload_date TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE game_online_build (
+    game_id MEDIUMINT UNSIGNED NOT NULL,
+    build_id MEDIUMINT UNSIGNED NOT NULL,
+    FOREIGN KEY (game_id) REFERENCES games(id),
+    FOREIGN KEY (build_id) REFERENCES online_builds(id)
+);

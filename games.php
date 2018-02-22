@@ -1,7 +1,8 @@
 <?php
 	$pageSubTitle = 'Games';
-	include('./includes/header.php');
-	require("../mysqli_connect.php");	
+	require("../mysqli_connect.php");
+	include('./includes/header.php');	
+	include("./includes/game_builder.php");
 	$query = "SELECT id, game_name, description, logo, banner
 		FROM games;";
 	$gameResult = @mysqli_query($dbc, $query);
@@ -27,8 +28,7 @@
 						'.$gameRow['description'].'
 					</p>';
 			$gameID = $gameRow['id'];
-			include("./includes/platforms.php");
-			$gameList = $gameList.$platforms;
+			$gameList = $gameList.getPlatforms($gameID, $dbc);
 			$gameList = $gameList.'</ul>
 							</div>
 						</div>
