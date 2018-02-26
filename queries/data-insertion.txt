@@ -14,9 +14,11 @@ VALUES ('Kyle',
     	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada accumsan ante sit amet aliquet. Suspendisse a ipsum viverra turpis porta gravida in a augue. Donec augue purus, sagittis id neque in, volutpat laoreet purus. Ut tempus viverra orci vitae sollicitudin. Nam bibendum sapien ut ex egestas, at varius est venenatis. Sed lacinia sed nibh iaculis tempus. Sed ornare sollicitudin mollis. Nunc at mi dolor. Integer imperdiet condimentum tristique. Vivamus euismod malesuada tortor, ac pharetra nunc vulputate vitae. Aliquam erat volutpat.', 
     	CURRENT_TIMESTAMP);
 
-INSERT INTO games (game_name, description)
+INSERT INTO games (game_name, description, logo, banner)
 VALUES ('TUNAdventure', 
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium varius tempor. Nulla eleifend ullamcorper lorem, non fringilla purus finibus a. Integer quis imperdiet nisl, ut finibus ligula. Mauris feugiat mollis ipsum at finibus. In ultrices nisi eget nulla elementum commodo. Aenean ultrices sem in sapien fermentum viverra. Duis venenatis dapibus felis, nec iaculis ligula mollis non. Aenean pellentesque diam lorem, porta maximus nisi lacinia sed. Praesent mattis blandit est, nec accumsan erat gravida vel.'),
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium varius tempor. Nulla eleifend ullamcorper lorem, non fringilla purus finibus a. Integer quis imperdiet nisl, ut finibus ligula. Mauris feugiat mollis ipsum at finibus. In ultrices nisi eget nulla elementum commodo. Aenean ultrices sem in sapien fermentum viverra. Duis venenatis dapibus felis, nec iaculis ligula mollis non. Aenean pellentesque diam lorem, porta maximus nisi lacinia sed. Praesent mattis blandit est, nec accumsan erat gravida vel.',
+		NULL,
+		NULL),
 	('RockCopter', 
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum fermentum pharetra. Pellentesque vitae lectus porttitor, commodo dolor nec, posuere nunc. Vivamus efficitur dignissim felis, sed cursus turpis lacinia at. Nulla vitae augue odio. Nulla vitae lacinia ligula. Proin ultrices nibh eget venenatis tristique. Suspendisse massa augue, viverra a leo at, ullamcorper molestie diam. Nunc suscipit massa sit amet leo gravida dignissim. Nam non sollicitudin diam.',
 		'rockcopterlogo.png',

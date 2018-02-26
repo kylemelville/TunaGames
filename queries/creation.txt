@@ -44,7 +44,7 @@ CREATE TABLE game_platform (
     release_date DATE,
     page_url VARCHAR(255),
     FOREIGN KEY (game_id) REFERENCES games(id),
-    FOREIGN KEY (platform_id) REFERENCES platform(id)
+    FOREIGN KEY (platform_id) REFERENCES platforms(id)
 );
 
 CREATE TABLE screenshots(
