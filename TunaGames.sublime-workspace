@@ -4,28 +4,88 @@
 		"selected_items":
 		[
 			[
-				"padd",
-				"padding-bottom"
+				"over",
+				"overflow"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"statu",
+				"statusMessenger"
+			],
+			[
+				"error",
+				"errorMessages"
+			],
+			[
+				"succ",
+				"successBanner"
+			],
+			[
+				"success",
+				"successBanner"
+			],
+			[
+				"transitio",
+				"transition-timing-function"
+			],
+			[
+				"trans",
+				"transition-property"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"marig",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-bottom"
 			],
 			[
 				"padding",
-				"padding-top"
+				"padding-bottom"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"page",
+				"pageURL"
+			],
+			[
+				"emb",
+				"embeddedGame"
+			],
+			[
+				"padd",
+				"padding-bottom"
 			],
 			[
 				"inl",
 				"inline-block"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"max",
 				"max-height"
-			],
-			[
-				"box",
-				"box-sizing"
 			],
 			[
 				"list",
@@ -44,16 +104,8 @@
 				"min-height"
 			],
 			[
-				"margi",
-				"margin-top"
-			],
-			[
 				"font",
 				"font-weight"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"bloc",
@@ -62,10 +114,6 @@
 			[
 				"bnac",
 				"background-color"
-			],
-			[
-				"trans",
-				"transition"
 			],
 			[
 				"animati",
@@ -94,10 +142,6 @@
 			[
 				"no",
 				"nowrap"
-			],
-			[
-				"over",
-				"overflow"
 			],
 			[
 				"overflow",
@@ -206,10 +250,6 @@
 			[
 				"font-st",
 				"font-style"
-			],
-			[
-				"marig",
-				"margin-right"
 			],
 			[
 				"grid-tem",
@@ -474,79 +514,37 @@
 			[
 				"getElem",
 				"getElementsByTagName"
-			],
-			[
-				"fill",
-				"fillRect"
-			],
-			[
-				"fu",
-				"function"
-			],
-			[
-				"background",
-				"background-color"
-			],
-			[
-				"list-st",
-				"list-style-type"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "game.php",
+			"file": "contact.php",
 			"settings":
 			{
-				"buffer_size": 1866,
+				"buffer_size": 1743,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "includes/embedded-game.php",
+			"file": "includes/status.php",
 			"settings":
 			{
-				"buffer_size": 816,
+				"buffer_size": 1192,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "includes/platforms.php",
+			"file": "css/contact.css",
 			"settings":
 			{
-				"buffer_size": 789,
+				"buffer_size": 1435,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/header.css",
-			"settings":
-			{
-				"buffer_size": 934,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/game.css",
-			"settings":
-			{
-				"buffer_size": 1916,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "games.php",
-			"settings":
-			{
-				"buffer_size": 1627,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "#contact-header {"
 			}
 		}
 	],
@@ -583,25 +581,32 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/TunaGames",
-		"/C/xampp/htdocs/TunaGames/css",
-		"/C/xampp/htdocs/TunaGames/games",
-		"/C/xampp/htdocs/TunaGames/games/RockCopter",
-		"/C/xampp/htdocs/TunaGames/images",
-		"/C/xampp/htdocs/TunaGames/images/ui",
-		"/C/xampp/htdocs/TunaGames/images/ui/unity",
 		"/C/xampp/htdocs/TunaGames/includes",
-		"/C/xampp/htdocs/TunaGames/js",
 		"/C/xampp/htdocs/TunaGames/queries"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/TunaGames/queries/creation.txt",
+		"/C/Users/Kyle/Desktop/phpmysql4_scripts/ch09/script_09_03/register.php",
+		"/C/xampp/htdocs/TunaGames/css/status.css",
+		"/C/xampp/htdocs/TunaGames/includes/status.php",
+		"/C/xampp/htdocs/TunaGames/game.php",
+		"/C/xampp/htdocs/TunaGames/includes/game_builder.php",
+		"/C/xampp/htdocs/TunaGames/css/games.css",
+		"/C/xampp/htdocs/TunaGames/css/game.css",
 		"/C/xampp/htdocs/TunaGames/css/embedded-game.css",
+		"/C/Users/Kyle/Desktop/phpmysql4_scripts/ch13/calculator.php",
+		"/C/Users/Kyle/Desktop/phpmysql4_scripts/ch11/upload_image.php",
+		"/C/Users/Kyle/Desktop/phpmysql4_scripts/ch11/script_11_4/images.php",
+		"/C/Users/Kyle/Desktop/phpmysql4_scripts/ch10/index.php",
+		"/C/xampp/htdocs/TunaGames/css/header.css",
+		"/C/xampp/htdocs/TunaGames/games.php",
+		"/C/xampp/htdocs/TunaGames/includes/embedded-game.php",
+		"/C/xampp/htdocs/TunaGames/includes/platforms.php",
+		"/C/xampp/htdocs/TunaGames/queries/data-insertion.txt",
+		"/C/xampp/htdocs/mysqli_connect.php",
 		"/C/xampp/htdocs/TunaGames/index.php",
 		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/TemplateData/embedded-game.css",
-		"/C/xampp/htdocs/TunaGames/includes/platforms.php",
-		"/C/xampp/htdocs/TunaGames/css/games.css",
-		"/C/xampp/htdocs/TunaGames/queries/data-insertion.txt",
-		"/C/xampp/htdocs/TunaGames/queries/creation.txt",
 		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/Build/UnityLoader.js",
 		"/C/xampp/htdocs/TunaGames/css/games - Copy.css",
 		"/C/xampp/htdocs/TunaGames/includes/header.php",
@@ -610,7 +615,6 @@
 		"/C/xampp/htdocs/TunaGames/games/RockCopter_Web/index.html",
 		"/C/xampp/htdocs/TunaGames/css/style.css",
 		"/C/xampp/htdocs/TunaGames/css/game2.css",
-		"/C/xampp/htdocs/TunaGames/games.php",
 		"/C/Users/Kyle/.emulationstation/es_input.cfg",
 		"/C/Users/Kyle/IdeaProjects/teamcredentialsstore/src/main/resources/application.properties",
 		"/C/Windows/kitchensink.keystore",
@@ -623,7 +627,6 @@
 		"/C/Users/Kyle/.emulationstation/gamelists/nes/gamelist.xml",
 		"/C/xampp/htdocs/TunaGames/css/footer.css",
 		"/C/xampp/htdocs/TunaGames/includes/footer.php",
-		"/C/xampp/htdocs/TunaGames/css/header.css",
 		"/C/xampp/htdocs/TunaGames/css/news-feed.css",
 		"/C/xampp/htdocs/TunaGames/team.php",
 		"/C/xampp/htdocs/TunaGames/css/references.txt",
@@ -638,7 +641,6 @@
 		"/C/xampp/htdocs/TunaGames/css/fa-brands.css",
 		"/C/Users/Kyle/Desktop/fontawesome-free-5.0.6 (1)/fontawesome-free-5.0.6/README.md",
 		"/C/Users/Kyle/Desktop/phpmysql4_scripts/phpmysql4_scripts/ch09/includes/header.html",
-		"/C/xampp/htdocs/mysqli_connect.php",
 		"/C/Users/Kyle/Desktop/phpmysql4_scripts/phpmysql4_scripts/ch09/mysqli_connect.php",
 		"/C/Users/Kyle/Desktop/phpmysql4_scripts/phpmysql4_scripts/ch09/password.php",
 		"/C/xampp/htdocs/TunaGames/includes/news-feed.php",
@@ -711,22 +713,11 @@
 		"/C/xampp/htdocs/ArtStore/register.html",
 		"/C/xampp/htdocs/ArtStore/cart.html",
 		"/C/xampp/htdocs/ArtStore/login.html",
-		"/C/xampp/htdocs/ArtStore/main.html",
-		"/C/xampp/htdocs/ArtStore/css/login.css",
-		"/C/xampp/apache/conf/httpd.conf",
-		"/C/xampp/htdocs/ArtStore/sample pages/dbconnection.php",
-		"/C/xampp/htdocs/ArtStore/main.php",
-		"/C/Users/Kyle/Desktop/TeamProjectInsertQuery.txt",
-		"/C/Users/Kyle/Desktop/TeamProjectCreateQuery.txt",
-		"/C/Users/Kyle/Desktop/Team Members.txt",
-		"/C/Users/Kyle/Desktop/RetroLib/index.html",
-		"/C/Users/Kyle/Desktop/Step2.txt",
-		"/C/Users/Kyle/.emulationstation/systems/retroarch/config/RetroArch-1021-033623..cfg",
-		"/C/xampp/htdocs/RetroLib/add.php"
+		"/C/xampp/htdocs/ArtStore/main.html"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -740,6 +731,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"right",
+			"10px",
 			"\t\n",
 			"both",
 			"left",
@@ -768,19 +761,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "game.php",
+					"file": "contact.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1866,
+						"buffer_size": 1743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1759,
-								1759
+								446,
+								274
 							]
 						],
 						"settings":
@@ -791,123 +784,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "includes/embedded-game.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "includes/platforms.php",
+					"buffer": 1,
+					"file": "includes/status.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 789,
+						"buffer_size": 1192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
+								1020,
+								1020
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "css/header.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								259,
-								10
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/game.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1691,
-								1691
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -916,34 +815,40 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 5,
-					"file": "games.php",
+					"buffer": 2,
+					"file": "css/contact.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1627,
+						"buffer_size": 1435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1149,
-								1149
+								1433,
+								1433
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "#contact-header {",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 42.0,
+						"translation.y": 84.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -977,7 +882,7 @@
 		"cols":
 		[
 			0.0,
-			0.59850798543,
+			0.614170636032,
 			1.0
 		],
 		"rows":
@@ -1025,7 +930,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

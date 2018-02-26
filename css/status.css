@@ -1,0 +1,27 @@
+.banner {
+	overflow: auto;
+	padding: 20px;
+}
+.banner img {
+	float: left;
+	width: 64px;
+}
+
+.error {
+	background-color: #fc2f4e;
+	border-bottom: 3px solid #e22844;
+	border-top: 3px solid #e22844;
+}
+
+.messages {
+	color: #f5f5f5;
+	font-size: 1.5em;
+	font-weight: normal;	
+	margin-left: 120px;
+}
+
+.success {
+	background-color: #26c181;
+	border-bottom: 3px solid #21a870;
+	border-top: 3px solid #21a870;
+}
