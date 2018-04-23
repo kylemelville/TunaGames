@@ -29,16 +29,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.087500002"
-     inkscape:cx="-8037.5251"
+     inkscape:cx="-9860.3822"
      inkscape:cy="-1518.2737"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showborder="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-5"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -190,6 +190,52 @@
        inkscape:export-filename="C:\Users\Kyle\Desktop\path7993.png"
        inkscape:export-xdpi="6.7663555"
        inkscape:export-ydpi="6.7663555" />
+    <path
+       id="path8016-9"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:60;stroke-opacity:1"
+       d="m -1810.5533,-736.19164 c -25.4137,-27.3252 -25.4137,-701.34616 0,-728.67136 25.4138,-27.3251 338.8495,309.6854 338.8495,364.3357 0,54.6504 -313.4357,391.66076 -338.8495,364.33566 z m 988.23021,-738.30606 c -153.19563,0 -306.39271,3.9333 -327.67581,11.7969 -42.5661,15.7272 -327.6738,331.7487 -327.6738,363.2031 0,31.4544 285.1077,347.47786 327.6738,363.20506 42.5662,15.7272 612.78351,15.7272 655.34961,0 42.56618,-15.7272 327.67388,-331.75066 327.67388,-363.20506 0,-31.4544 -285.1077,-347.4759 -327.67388,-363.2031 -21.283,-7.8636 -174.4782,-11.7969 -327.6738,-11.7969 z m 263.3613,116.1016 29.8243,0 c 10.8148,0 19.5195,8.7067 19.5195,19.5215 l 0,81.4062 81.40618,0 c 10.8148,0 19.5215,8.7048 19.5215,19.5196 l 0,29.8261 c 0,10.8148 -8.7067,19.5235 -19.5215,19.5235 l -81.40618,0 0,81.4023 c 0,10.8148 -8.7047,19.5215 -19.5195,19.5215 l -29.8243,0 c -10.8147,0 -19.5214,-8.7067 -19.5214,-19.5215 l 0,-81.4023 -81.4063,0 c -10.8148,0 -19.5215,-8.7087 -19.5215,-19.5235 l 0,-29.8261 c 0,-10.8148 8.7067,-19.5196 19.5215,-19.5196 l 81.4063,0 0,-81.4062 c 0,-10.8148 8.7067,-19.5215 19.5214,-19.5215 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8165.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1521.4644"
+       y="-466.49194"
+       id="text8165-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8165.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555"><tspan
+         sodipodi:role="line"
+         id="tspan8167-3"
+         x="-1521.4644"
+         y="-466.49194"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:360px;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill:#9b9b9b;fill-opacity:1">Tuna Games Manager</tspan></text>
+    <path
+       id="path8016-43-5"
+       style="display:inline;opacity:1;fill:#282828;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:60;stroke-opacity:1"
+       d="m -1821.982,646.66544 c -25.4137,-27.32516 -25.4137,-701.346162 0,-728.671362 25.4138,-27.325098 338.8495,309.685362 338.8495,364.335712 0,54.65034 -313.4357,391.66083 -338.8495,364.33565 z m 988.23038,-738.306062 c -153.19575,0 -306.39288,3.9333 -327.67598,11.7969 -42.5661,15.7272 -327.6738,331.748662 -327.6738,363.203122 0,31.45443 285.1077,347.47786 327.6738,363.20507 42.5662,15.72723 612.78368,15.72723 655.34978,0 42.5662,-15.72721 327.6739,-331.75064 327.6739,-363.20507 0,-31.45445 -285.1077,-347.475922 -327.6739,-363.203122 -21.283,-7.8636 -174.4782,-11.7969 -327.6738,-11.7969 z m 263.3613,116.1016 29.8243,0 c 10.8148,0 19.5195,8.7067 19.5195,19.5215 l 0,81.406212 81.4062,0 c 10.8148,0 19.5215,8.7048 19.5215,19.5196 l 0,29.82608 c 0,10.81478 -8.7067,19.52349 -19.5215,19.52349 l -81.4062,0 0,81.40231 c 0,10.81479 -8.7047,19.52148 -19.5195,19.52148 l -29.8243,0 c -10.8147,0 -19.5214,-8.70669 -19.5214,-19.52148 l 0,-81.40232 -81.4063,0 c -10.8148,0 -19.5215,-8.7087 -19.5215,-19.52349 l 0,-29.82608 c 0,-10.8148 8.7067,-19.5196 19.5215,-19.5196 l 81.4063,0 0,-81.406202 c 0,-10.8148 8.7067,-19.5215 19.5214,-19.5215 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8166.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1532.8928"
+       y="916.36505"
+       id="text8165-0-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Kyle\Desktop\text8166.png"
+       inkscape:export-xdpi="6.7663555"
+       inkscape:export-ydpi="6.7663555"><tspan
+         sodipodi:role="line"
+         id="tspan8167-7-7"
+         x="-1532.8928"
+         y="916.36505"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:360px;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill:#9b9b9b;fill-opacity:1">Tuna Games Manager</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

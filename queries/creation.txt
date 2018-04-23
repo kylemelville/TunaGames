@@ -1,16 +1,5 @@
 CREATE DATABASE tunagames;
 
-CREATE TABLE users (
-	id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
-    first_name VARCHAR(32) NOT NULL,
-    last_name VARCHAR(32) NOT NULL,
-    email VARCHAR(64) NOT NULL,
-    pwd VARCHAR(64) NOT NULL,
-    creation_date DATETIME NOT NULL,
-    admin BOOLEAN,
-    PRIMARY KEY (id)
-);
-
 CREATE TABLE employees (
 	id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(32) NOT NULL,
@@ -80,5 +69,16 @@ CREATE TABLE messages (
     email VARCHAR(255),
     subject VARCHAR(255),
     message TEXT,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE users (
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(32) NOT NULL,
+    last_name VARCHAR(32) NOT NULL,
+    email VARCHAR(64) NOT NULL,
+    pwd VARCHAR(64) NOT NULL,
+    creation_date DATETIME NOT NULL,
+    admin BOOLEAN,
     PRIMARY KEY (id)
 );

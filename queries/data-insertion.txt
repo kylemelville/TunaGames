@@ -64,3 +64,6 @@ VALUES ('RockCopter', CURRENT_TIMESTAMP),
 INSERT INTO game_online_build (game_id, build_id)
 VALUES (1, 2),
 	(2, 1);
+
+INSERT INTO users (first_name, last_name, email, pwd, creation_date, admin) 
+VALUES ('Kyle', 'Melville', 'tuna@gmail.com', '$2y$10$gj8.aAnxdNo.uW/g9RbsVONlNuemOht5aLvfSC/sX7SK73IMJ7rUm', CURRENT_TIMESTAMP, TRUE);

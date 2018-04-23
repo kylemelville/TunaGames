@@ -35,9 +35,9 @@
 				</div>
 				<div class="navigation">
 					<ul>
+						<li><a href="index.php">Home</a></li>
 						<li><a href="games.php">Games</a></li>
 						<li><a href="team.php">Team</a></li>
-						<li><a href="shop.php">Shop</a></li>
 					</ul>
 				</div>
 			</div>
